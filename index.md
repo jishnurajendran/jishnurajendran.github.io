@@ -1,9 +1,19 @@
-### Jishnu Rajendran 
-I am a final year student M.Sc student from   easiest way to create beautiful pages for all of your projects. Author your page content here [using GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/), select a template crafted by a designer, and publish. After your page is generated, you can check out the new `gh-pages` branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.
+### About
+I am a final year student M.Sc student from National Instiitute of Science Education and Research, Bhubansewar. My M.Sc thesis is on Quantum Computation particularly Quantum walks and Quantum games under the supervision of [Dr. Colin Benjamin](https://www.researchgate.net/profile/Colin_Benjamin). [using GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/), select a template crafted by a designer, and publish. After your page is generated, you can check out the new `gh-pages` branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.
 
-### Designer Templates
-We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.
+## Projects
+* Item 1  **Quantum Walks and Quantum games**
+ Supervisor:[Dr. Colin Benjamin](https://www.researchgate.net/profile/Colin_Benjamin), [NISER Bhubaneswar, India](http://www.niser.ac.in/)
+ Quantum walks are the Quantum equivalent of a random walk. As expected they have a very different nature of distributions. Parrondo's paradox is ubiquitous in games, ratchets and random walks.The apparent paradox, devised by Juan M. R. Parrondo, that two losing games $A$ and $B$ can produce an winning outcome has been adapted in many physical and biological systems to explain their working. We studied the nature of Quantum walks in a 1-D lattice using which a Parrondo's game is constructed. Earlier proposals on demonstrating Parrondo's paradox using quantum walks failed in the asymptotic limits. Our work was to implement a genuine Parrondo's paradox with Quantum walks.
 
+* Item 2 **Study of Mie scattering using coupled harmonic oscillators**
+ Supervisor:{Dr. Murugesan Venkatapathi](http://cds.iisc.ac.in/faculty/murugesh/), [IISc, Bangalore, India](http://www.iisc.ac.in/)
+ Mie scattering from a sphere is modeled and simulated using coupled harmonic oscillators. Classically this have been tackled using Lorenz–Mie solution and spherical harmonics.Using five coupled oscillators we can model the system which is approximately 2.5 times efficient in terms of memory utilization.(INSPIRE Funded)
+ 
+* Item 3 **Exact diagonalization of large symmetric and sparse matrices**
+ Suervisor: [Dr. V Ravi Chandra](http://www.niser.ac.in/~ravi/), [NISER Bhubaneswar, India](http://www.niser.ac.in/)
+ Diagonalisation of a matrix is a crucial part in any physical measurement, most important of which is energy measrement which is done by finding the eigenvalues of hamitonian  
+ Comparison between Lanczos and Davidson algorithm was done for efficient diagonalization of large sparse symmetric matrices.
 ### Creating pages manually
 If you prefer to not use the automatic generator, push a branch named `gh-pages` to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.
 

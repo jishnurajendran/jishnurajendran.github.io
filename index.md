@@ -18,5 +18,3 @@ I am a final year student M.Sc student from National Instiitute of Science Educa
  Supervisor: [Dr. V Ravi Chandra](http://www.niser.ac.in/~ravi/), [NISER Bhubaneswar, India](http://www.niser.ac.in/)
  Diagonalisation of a matrix is a crucial part in any physical measurement, most important of which is energy measurement which is done by finding the eigenvalues of Hamiltonian. In the case of large systems, this can be computationally challenging. Lanczos Davidson algorithms are two common algorithms used in diagonalising large matrices. Comparison between Lanczos and Davidson algorithm was done for efficient diagonalization of large sparse symmetric matrices.
 
-## Publication
-* How to implement a genuine Parrando's paradox with quantum walks?, Jishnu Rajendran and Colin Benjamin, [	arXiv:1702.05927](https://arxiv.org/abs/1702.05927)

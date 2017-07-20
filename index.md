@@ -1,6 +1,11 @@
 ### About
 I am a final year student M.Sc student from National Instiitute of Science Education and Research, Bhubansewar. My M.Sc thesis is on Quantum Computation particularly Quantum walks and Quantum games under the supervision of [Dr. Colin Benjamin](https://www.researchgate.net/profile/Colin_Benjamin).
 
+## Publications
+'''
+[How to implement a genuine Parrondo's paradox with quantum walks?](https://arxiv.org/abs/1702.05927)
+Jishnu Rajendran and Colin Benjamin, arXiv:1702.05927 (2017)
+'''
 ## Projects
 * **Quantum Walks and Quantum games**
  Supervisor:[Dr. Colin Benjamin](https://www.researchgate.net/profile/Colin_Benjamin), [NISER Bhubaneswar, India](http://www.niser.ac.in/)

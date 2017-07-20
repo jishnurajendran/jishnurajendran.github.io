@@ -3,7 +3,7 @@ I am a final year student M.Sc student from National Instiitute of Science Educa
 
 ## Publications
 > [How to implement a genuine Parrondo's paradox with quantum walks?](https://arxiv.org/abs/1702.05927)
-Jishnu Rajendran and Colin Benjamin, arXiv:1702.05927 (2017)
+, Jishnu Rajendran and Colin Benjamin, arXiv:1702.05927 (2017)
 
 ## Projects
 * **Quantum Walks and Quantum games**

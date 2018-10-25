@@ -2,9 +2,13 @@
 I am a final year student M.Sc student from National Instiitute of Science Education and Research, Bhubansewar. My M.Sc thesis is on Quantum Computation particularly Quantum walks and Quantum games under the supervision of [Dr. Colin Benjamin](https://www.researchgate.net/profile/Colin_Benjamin).
 
 ## Publications
-> [How to implement a genuine Parrondo's paradox with quantum walks?](https://arxiv.org/abs/1702.05927)
-, Jishnu Rajendran and Colin Benjamin, arXiv:1702.05927 (2017)
+> [Implementing Parrondo’s paradox with two-coin quantum walks](http://doi.org/10.1098/rsos.171599)
+, Jishnu Rajendran and [Colin Benjamin](https://www.researchgate.net/profile/Colin_Benjamin), R. Soc. open sci. 2018 5 171599; DOI: 10.1098/rsos.171599.
+> [Playing a true Parrondo's game with a three-state coin on a quantum walk](http://iopscience.iop.org/article/10.1209/0295-5075/122/40004/pdf), Jishnu Rajendran and [Colin Benjamin](https://www.researchgate.net/profile/Colin_Benjamin), EPL (Euro Physics Letters) 122, 40004 (2018)
 
+## Press Coverage 
+> [Phys.org: Parrondo's paradox with a three-sided coin](https://phys.org/news/2018-07-parrondo-paradox-three-sided-coin.html): https://phys.org/news/2018-07-parrondo-paradox-three-sided-coin.html
+> [LiveScience: Weird Paradox Says 2 Losses Equals a Win. And It Could Lead to Fast Quantum Computers](https://www.livescience.com/63142-parrondos-paradox-quantum-computing.html):https://www.livescience.com/63142-parrondos-paradox-quantum-computing.html
 ## Projects
 * **Quantum Walks and Quantum games**
  Supervisor:[Dr. Colin Benjamin](https://www.researchgate.net/profile/Colin_Benjamin), [NISER Bhubaneswar, India](http://www.niser.ac.in/)

@@ -8,7 +8,9 @@ I completed my Integrated M.Sc program from National Institute of Science Educat
 
 ## Press Coverage 
 * [Phys.org: Parrondo's paradox with a three-sided coin](https://phys.org/news/2018-07-parrondo-paradox-three-sided-coin.html): 
-* [LiveScience: Weird Paradox Says 2 Losses Equals a Win. And It Could Lead to Fast Quantum Computers](https://www.livescience.com/63142-parrondos-paradox-quantum-computing.html):
+* [LiveScience: Weird Paradox Says 2 Losses Equals a Win. And It Could Lead to Fast Quantum Computers](https://www.livescience.com/63142-parrondos-paradox-quantum-computing.html)
+
+## Project
 * **Quantum Walks and Quantum games**
  Supervisor:[Dr. Colin Benjamin](https://www.researchgate.net/profile/Colin_Benjamin), [NISER Bhubaneswar, India](http://www.niser.ac.in/)
  Quantum walks are the Quantum equivalent of a random walk. As expected they have a very different nature of distributions. Parrondo's paradox is ubiquitous in games, ratchets and random walks.The apparent paradox, devised by Juan M. R. Parrondo, that two losing games $A$ and $B$ can produce a winning outcome has been adapted in many physical and biological systems to explain their working. We studied the nature of Quantum walks in a 1-D lattice using which a Parrondo's game is constructed. Earlier proposals on demonstrating Parrondo's paradox using quantum walks failed in the asymptotic limits. Our work was to implement a genuine Parrondo's paradox with Quantum walks.

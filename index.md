@@ -16,7 +16,7 @@ I completed my Integrated M.Sc program from National Institute of Science Educat
  Quantum walks are the Quantum equivalent of a random walk. As expected they have a very different nature of distributions. Parrondo's paradox is ubiquitous in games, ratchets and random walks.The apparent paradox, devised by Juan M. R. Parrondo, that two losing games $A$ and $B$ can produce a winning outcome has been adapted in many physical and biological systems to explain their working. We studied the nature of Quantum walks in a 1-D lattice using which a Parrondo's game is constructed. Earlier proposals on demonstrating Parrondo's paradox using quantum walks failed in the asymptotic limits. Our work was to implement a genuine Parrondo's paradox with Quantum walks.
 
 * **Study of Mie scattering using coupled harmonic oscillators**
- Supervisor:{Dr. Murugesan Venkatapathi](http://cds.iisc.ac.in/faculty/murugesh/), [IISc, Bangalore, India](http://www.iisc.ac.in/)
+ Supervisor:[Dr. Murugesan Venkatapathi](http://cds.iisc.ac.in/faculty/murugesh/), [IISc, Bangalore, India](http://www.iisc.ac.in/)
  Mie scattering from a sphere is modelled and simulated using coupled harmonic oscillators. Classically this has been tackled using Lorenz–Mie solution and spherical harmonics.Using five coupled oscillators we can model the system which is approximately 2.5 times efficient in terms of memory utilisation.(INSPIRE Funded)
  
 * **Exact diagonalization of large symmetric and sparse matrices**

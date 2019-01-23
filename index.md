@@ -1,5 +1,5 @@
 ### About
-I completed my Integrated M.Sc program from National Institute of Science Education and Research, Bhubansewar . My M.Sc thesis is on Quantum Computation particularly Quantum walks and Quantum games under the supervision of [Dr. Colin Benjamin](https://www.researchgate.net/profile/Colin_Benjamin).
+My name is Jishnu Rajendran. I am a PhD Student at [Department of Physics and Astronomy "Ettore Majorana"](http://www.dfa.unict.it/en), [Università degli Studi di Catania](https://www.unict.it/en). Prior to this, I completed my Integrated M.Sc program from [National Institute of Science Education and Research, Bhubansewar](http://www.niser.ac.in/). My M.Sc thesis was on Quantum Computation particularly Quantum walks and Quantum games under the supervision of [Dr. Colin Benjamin](https://www.researchgate.net/profile/Colin_Benjamin).
 
 ## Publications
 * [Implementing Parrondo’s paradox with two-coin quantum walks](http://doi.org/10.1098/rsos.171599)

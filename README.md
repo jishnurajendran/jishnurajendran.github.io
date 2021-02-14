@@ -1,2 +1,2 @@
-jishnurajendran.gihub.io
+jishnurajendran.github.io
 =====================

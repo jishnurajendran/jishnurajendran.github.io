@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-04-06 Sat 23:38 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Readme</title>
+<meta name="author" content="Jishnu" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Readme</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org31cfca3">1. Choose linux distro</a>
+<ul>
+<li><a href="#orge34dee8">1.1. EndeavourOS</a>
+<ul>
+<li><a href="#org71b90c1">1.1.1. Download</a></li>
+<li><a href="#orgb2e00b5">1.1.2. Minimum system requirements</a></li>
+</ul>
+</li>
+<li><a href="#orgd1afdc3">1.2. Fedora</a>
+<ul>
+<li><a href="#org5d88621">1.2.1. Download</a></li>
+<li><a href="#org976774a">1.2.2. Minimum system requirements</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgc7bb7eb">2. Install</a>
+<ul>
+<li><a href="#orgf4af560">2.1. Bootable USB</a>
+<ul>
+<li><a href="#org67a78eb">2.1.1. Tools</a></li>
+<li><a href="#org22a8e50">2.1.2. See also</a></li>
+</ul>
+</li>
+<li><a href="#orgd4e641f">2.2. Live Boot</a></li>
+<li><a href="#org8e3c1d1">2.3. Desktop Environment</a>
+<ul>
+<li><a href="#org2a60a75">2.3.1. KDE</a></li>
+<li><a href="#org5ca0bba">2.3.2. GNOME</a></li>
+<li><a href="#org343ca4b">2.3.3. i3</a></li>
+<li><a href="#org94984fb">2.3.4. Sway</a></li>
+<li><a href="#org198136d">2.3.5. Hyprland</a></li>
+<li><a href="#orgcfb1d6b">2.3.6. dwm</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org31bc3be">3. UEFI</a></li>
+<li><a href="#org60bd606">4. After Installation</a>
+<ul>
+<li><a href="#orga1af0f1">4.1. Arch Wiki and Endeavour docs are friends</a></li>
+<li><a href="#org858c799">4.2. Choo</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org31cfca3" class="outline-2">
+<h2 id="org31cfca3"><span class="section-number-2">1.</span> Choose linux distro</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-orge34dee8" class="outline-3">
+<h3 id="orge34dee8"><span class="section-number-3">1.1.</span> EndeavourOS</h3>
+<div class="outline-text-3" id="text-1-1">
+</div>
+<div id="outline-container-org71b90c1" class="outline-4">
+<h4 id="org71b90c1"><span class="section-number-4">1.1.1.</span> Download</h4>
+<div class="outline-text-4" id="text-1-1-1">
+<ul class="org-ul">
+<li>Choose the mirror you prefer.</li>
+<li>Direct download is recommended.</li>
+</ul>
+<blockquote>
+<p>
+Download: <a href="https://endeavouros.com/#Download">EndeavourOS</a>
+</p>
+</blockquote>
+</div>
+</div>
+<div id="outline-container-orgb2e00b5" class="outline-4">
+<h4 id="orgb2e00b5"><span class="section-number-4">1.1.2.</span> Minimum system requirements</h4>
+<div class="outline-text-4" id="text-1-1-2">
+<ul class="org-ul">
+<li>2.5 GB of RAM (offline installs)(1).</li>
+<li>Dual Core Processor (64 bit, x86-64, amd64).</li>
+<li>15 GB of Hard drive space.</li>
+<li>Installer still supports legacy Bios only systems, but it is recommended to run modern EFI (<a href="#org31bc3be">3</a>) systems not on legacy (CSM) mode.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd1afdc3" class="outline-3">
+<h3 id="orgd1afdc3"><span class="section-number-3">1.2.</span> Fedora</h3>
+<div class="outline-text-3" id="text-1-2">
+</div>
+<div id="outline-container-org5d88621" class="outline-4">
+<h4 id="org5d88621"><span class="section-number-4">1.2.1.</span> Download</h4>
+<div class="outline-text-4" id="text-1-2-1">
+<ul class="org-ul">
+<li>Download from Fedora project website</li>
+<li><a href="https://fedoraproject.org/workstation/download/">Fedora Workstation</a> is the choice of laptops and desktops</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org976774a" class="outline-4">
+<h4 id="org976774a"><span class="section-number-4">1.2.2.</span> Minimum system requirements</h4>
+<div class="outline-text-4" id="text-1-2-2">
+<p>
+This is recommented by Fedora project.
+</p>
+<ul class="org-ul">
+<li>20GB disk</li>
+<li>2GB RAM</li>
+<li>Double those amounts is recommended.</li>
+<li>Recommented to run in <a href="#org31bc3be">3</a> mode.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc7bb7eb" class="outline-2">
+<h2 id="orgc7bb7eb"><span class="section-number-2">2.</span> Install</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-orgf4af560" class="outline-3">
+<h3 id="orgf4af560"><span class="section-number-3">2.1.</span> Bootable USB</h3>
+<div class="outline-text-3" id="text-2-1">
+</div>
+<div id="outline-container-org67a78eb" class="outline-4">
+<h4 id="org67a78eb"><span class="section-number-4">2.1.1.</span> Tools</h4>
+<div class="outline-text-4" id="text-2-1-1">
+</div>
+<ol class="org-ol">
+<li><a id="org0800ec1"></a>Windows<br />
+<ol class="org-ol">
+<li><a id="org64ee1df"></a>Rufus<br />
+<div class="outline-text-6" id="text-2-1-1-1-1">
+<p>
+If ISO mode is not working change it to DD mode
+<a href="https://rufus.ie/en/">Rufus: Create bootable USB drives the easy way</a>
+</p>
+</div>
+</li>
+<li><a id="orgc70e0b5"></a>KDE ISO Image Writer<br />
+<div class="outline-text-6" id="text-2-1-1-1-2">
+<p>
+<a href="https://apps.kde.org/en-gb/isoimagewriter/">ISO Image Writer - KDE Applications</a>
+</p>
+</div>
+</li>
+<li><a id="org2e8adf6"></a>Etcher<br />
+<div class="outline-text-6" id="text-2-1-1-1-3">
+<p>
+<a href="https://etcher.balena.io/">balenaEtcher - Flash OS images to SD cards &amp; USB drives</a>
+</p>
+</div>
+</li>
+</ol>
+</li>
+<li><a id="orgeb8e1d3"></a>Linux<br />
+<ol class="org-ol">
+<li><a id="org5b7c0a4"></a>KDE ISO Image Writer<br />
+<div class="outline-text-6" id="text-2-1-1-2-1">
+<p>
+<a href="https://apps.kde.org/en-gb/isoimagewriter/">ISO Image Writer - KDE Applications</a>
+</p>
+</div>
+</li>
+<li><a id="org656b6d7"></a>GNOME Boot Image Writer<br />
+<div class="outline-text-6" id="text-2-1-1-2-2">
+<p>
+<a href="https://wiki.gnome.org/Apps/MultiWriter">Apps/MultiWriter - GNOME Wiki!</a>
+</p>
+</div>
+</li>
+<li><a id="org1df56b4"></a>Popsicle<br />
+<div class="outline-text-6" id="text-2-1-1-2-3">
+<p>
+<a href="https://github.com/pop-os/popsicle">pop-os/popsicle</a>: Flashing ISO files to multiple USB devices in parallel by the PopOS
+</p>
+</div>
+</li>
+</ol>
+</li>
+<li><a id="orgd72fdbd"></a>Ventoy<br />
+<div class="outline-text-5" id="text-2-1-1-3">
+<p>
+Tool to create drives that allow you to select and boot any EFI, IMG, ISO, VHD(x), or WIM files stored on a rewritable partition on the drive.
+</p>
+<blockquote>
+<p>
+Just need to setup a USB once and can just copy ISO
+</p>
+</blockquote>
+<p>
+<a href="https://www.ventoy.net/en/index.html">Ventoy</a>: all the instuctions are in website and can change by version so better to follow the documentation
+</p>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org22a8e50" class="outline-4">
+<h4 id="org22a8e50"><span class="section-number-4">2.1.2.</span> See also</h4>
+<div class="outline-text-4" id="text-2-1-2">
+<ol class="org-ol">
+<li><a href="https://wiki.archlinux.org/title/USB_flash_installation_medium#In_GNU/Linux">USB flash installation medium - ArchWiki</a></li>
+<li><a href="https://docs.fedoraproject.org/en-US/quick-docs/creating-and-using-a-live-installation-image/index.html">Creating and using a live installation image :: Fedora Docs</a></li>
+<li><a href="https://en.opensuse.org/SDB:Live_USB_stick">Live USB stick - openSUSE Wiki</a></li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd4e641f" class="outline-3">
+<h3 id="orgd4e641f"><span class="section-number-3">2.2.</span> Live Boot</h3>
+<div class="outline-text-3" id="text-2-2">
+<ol class="org-ol">
+<li>Boot up the live image</li>
+<li>Usually Calamares installation</li>
+<li>Choose the partitions properly</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org8e3c1d1" class="outline-3">
+<h3 id="org8e3c1d1"><span class="section-number-3">2.3.</span> Desktop Environment</h3>
+<div class="outline-text-3" id="text-2-3">
+</div>
+<div id="outline-container-org2a60a75" class="outline-4">
+<h4 id="org2a60a75"><span class="section-number-4">2.3.1.</span> KDE</h4>
+<div class="outline-text-4" id="text-2-3-1">
+<ul class="org-ul">
+<li>Easy to use and similar to Windows</li>
+<li>Wayland 😍 support</li>
+<li>Community support</li>
+<li>Highly customizable</li>
+<li>Beautiful, modern and intuitive</li>
+<li>Kind of heavy</li>
+<li>Full environment (most of the applications needed are included)</li>
+<li>Comes with default installation for both endeavourOS and Fedora</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org5ca0bba" class="outline-4">
+<h4 id="org5ca0bba"><span class="section-number-4">2.3.2.</span> GNOME</h4>
+<div class="outline-text-4" id="text-2-3-2">
+<ul class="org-ul">
+<li>Very heavy</li>
+<li>Not recommended</li>
+<li>Wayland support</li>
+<li>Rich environment</li>
+<li>Comes with default installation for both endeavourOS and Fedora</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org343ca4b" class="outline-4">
+<h4 id="org343ca4b"><span class="section-number-4">2.3.3.</span> i3</h4>
+<div class="outline-text-4" id="text-2-3-3">
+<ul class="org-ul">
+<li>Not Wayland</li>
+<li>Good for tiling manager</li>
+<li>Good support</li>
+<li>Heavy on configuration</li>
+<li><a href="https://github.com/endeavouros-team/endeavouros-i3wm-setup">endeavouros-team/endeavouros-i3wm-setup: The beloved EndeavourOS i3</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org94984fb" class="outline-4">
+<h4 id="org94984fb"><span class="section-number-4">2.3.4.</span> Sway</h4>
+<div class="outline-text-4" id="text-2-3-4">
+<ul class="org-ul">
+<li>Wayland Native</li>
+<li>Minimalistic</li>
+<li>Good for tiling manager</li>
+<li>Great support</li>
+<li>Similar to i3</li>
+<li>Heavy on configuration</li>
+<li><a href="https://github.com/EndeavourOS-Community-Editions/sway">EndeavourOS-Community-Editions/sway: EndeavourOS Community Edition</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org198136d" class="outline-4">
+<h4 id="org198136d"><span class="section-number-4">2.3.5.</span> Hyprland</h4>
+<div class="outline-text-4" id="text-2-3-5">
+<ul class="org-ul">
+<li>Wayland Native</li>
+<li>A thing of beauty is joy forever</li>
+<li>Good support</li>
+<li>Did I say its gorgeous</li>
+<li>Heavy on configuration</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgcfb1d6b" class="outline-4">
+<h4 id="orgcfb1d6b"><span class="section-number-4">2.3.6.</span> dwm</h4>
+<div class="outline-text-4" id="text-2-3-6">
+<ul class="org-ul">
+<li>Not wayland</li>
+<li>I heard you like C++.</li>
+<li>You should like compiling</li>
+<li>Good support</li>
+<li>Heavy on configuration</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org31bc3be" class="outline-2">
+<h2 id="org31bc3be"><span class="section-number-2">3.</span> UEFI</h2>
+<div class="outline-text-2" id="text-3">
+<ul class="org-ul">
+<li>Need to disable secure boot in BIOS</li>
+<li>Ensure Fast boot(or fast startup) is disabled</li>
+<li>Dual-booting is possible.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org60bd606" class="outline-2">
+<h2 id="org60bd606"><span class="section-number-2">4.</span> After Installation</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-orga1af0f1" class="outline-3">
+<h3 id="orga1af0f1"><span class="section-number-3">4.1.</span> Arch Wiki and Endeavour docs are friends</h3>
+<div class="outline-text-3" id="text-4-1">
+<ul class="org-ul">
+<li><a href="https://discovery.endeavouros.com/">Discovery – Explore and own your Endeavour</a></li>
+<li><a href="https://wiki.archlinux.org/">ArchWiki</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org858c799" class="outline-3">
+<h3 id="org858c799"><span class="section-number-3">4.2.</span> Choo</h3>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Jishnu</p>
+<p class="date">Created: 2024-04-06 Sat 23:38</p>
+</div>
+</body>
+</html>

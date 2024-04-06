@@ -1,0 +1,115 @@
+#+title: Readme
+#+startup: show2levels
+* Choose linux distro
+** EndeavourOS
+*** Download
+- Choose the mirror you prefer.
+- Direct download is recommended.
+#+begin_quote
+ Download: [[https://endeavouros.com/#Download][EndeavourOS]]
+#+end_quote
+*** Minimum system requirements
+- 2.5 GB of RAM (offline installs)(1).
+- Dual Core Processor (64 bit, x86-64, amd64).
+- 15 GB of Hard drive space.
+- Installer still supports legacy Bios only systems, but it is recommended to run modern EFI ([[UEFI]]) systems not on legacy (CSM) mode.
+** Fedora
+*** Download
+- Download from Fedora project website
+- [[https://fedoraproject.org/workstation/download/][Fedora Workstation]] is the choice of laptops and desktops
+*** Minimum system requirements
+This is recommented by Fedora project.
+- 20GB disk
+- 2GB RAM
+- Double those amounts is recommended.
+- Recommented to run in [[UEFI]] mode.
+* Install
+** Bootable USB
+*** Tools
+**** Windows
+***** Rufus
+If ISO mode is not working change it to DD mode
+[[https://rufus.ie/en/][Rufus: Create bootable USB drives the easy way]]
+***** KDE ISO Image Writer
+[[https://apps.kde.org/en-gb/isoimagewriter/][ISO Image Writer - KDE Applications]]
+***** Etcher
+[[https://etcher.balena.io/][balenaEtcher - Flash OS images to SD cards & USB drives]]
+
+**** Linux
+***** KDE ISO Image Writer
+[[https://apps.kde.org/en-gb/isoimagewriter/][ISO Image Writer - KDE Applications]]
+***** GNOME Boot Image Writer
+[[https://wiki.gnome.org/Apps/MultiWriter][Apps/MultiWriter - GNOME Wiki!]]
+***** Popsicle
+ [[https://github.com/pop-os/popsicle][pop-os/popsicle]]: Flashing ISO files to multiple USB devices in parallel by the PopOS
+**** Ventoy
+Tool to create drives that allow you to select and boot any EFI, IMG, ISO, VHD(x), or WIM files stored on a rewritable partition on the drive.
+#+begin_quote
+Just need to setup a USB once and can just copy ISO
+#+end_quote
+[[https://www.ventoy.net/en/index.html][Ventoy]]: all the instuctions are in website and can change by version so better to follow the documentation
+*** See also
+1. [[https://wiki.archlinux.org/title/USB_flash_installation_medium#In_GNU/Linux][USB flash installation medium - ArchWiki]]
+2. [[https://docs.fedoraproject.org/en-US/quick-docs/creating-and-using-a-live-installation-image/index.html][Creating and using a live installation image :: Fedora Docs]]
+3. [[https://en.opensuse.org/SDB:Live_USB_stick][Live USB stick - openSUSE Wiki]]
+** Live Boot
+1. Boot up the live image
+2. Usually Calamares installation
+3. Choose the partitions properly
+** Desktop Environment
+*** KDE
+- Easy to use and similar to Windows
+- Wayland 😍 support
+- Community support
+- Highly customizable
+- Beautiful, modern and intuitive
+- Kind of heavy
+- Full environment (most of the applications needed are included)
+- Comes with default installation for both endeavourOS and Fedora
+*** GNOME
+- Very heavy
+- Not recommended
+- Wayland support
+- Rich environment
+- Comes with default installation for both endeavourOS and Fedora
+*** i3
+- Not Wayland
+- Good for tiling manager
+- Good support
+- Heavy on configuration
+- [[https://github.com/endeavouros-team/endeavouros-i3wm-setup][endeavouros-team/endeavouros-i3wm-setup: The beloved EndeavourOS i3]]
+*** Sway
+- Wayland Native
+- Minimalistic
+- Good for tiling manager
+- Great support
+- Similar to i3
+- Heavy on configuration
+- [[https://github.com/EndeavourOS-Community-Editions/sway][EndeavourOS-Community-Editions/sway: EndeavourOS Community Edition]]
+*** Hyprland
+- Wayland Native
+- A thing of beauty is joy forever
+- Good support
+- Did I say its gorgeous
+- Heavy on configuration
+*** dwm
+- Not wayland
+- I heard you like C++.
+- You should like compiling
+- Good support
+- Heavy on configuration
+
+
+
+
+
+* UEFI
+- Need to disable secure boot in BIOS
+- Ensure Fast boot(or fast startup) is disabled
+- Dual-booting is possible.
+* After Installation
+** Arch Wiki and Endeavour docs are friends
+- [[https://discovery.endeavouros.com/][Discovery – Explore and own your Endeavour]]
+- [[https://wiki.archlinux.org/][ArchWiki]]
+
+** Choo

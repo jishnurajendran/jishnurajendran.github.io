@@ -14,4 +14,4 @@ news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
-Dr. Jishnu Rajendran, formerly a PhD Student at [Department of Physics and Astronomy &ldquo;Ettore Majorana&rdquo;](http://www.dfa.unict.it/en), [Universita degli Studi di Catania](https://www.unict.it/en). My fields of expertise are Quantum computation and information, Quantum walks, Quantum optimal control, Quantum algorithms, Computational physics, Numerical simulation, Optimal control, evolutionary algorithms and deep learning methods in optimization problems.
+Dr. Jishnu Rajendran, formerly a PhD Student at [Department of Physics and Astronomy &ldquo;Ettore Majorana&rdquo;](http://www.dfa.unict.it/en), [Universita degli Studi di Catania](https://www.unict.it/en). My fields of expertise are `Quantum computation and information`, `Quantum walks`, `Quantum optimal control`, `Quantum algorithms`, `Computational physics`, `Numerical simulation`, `Optimal control`, `evolutionary algorithms` and `deep learning methods in optimization problems`.

@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
   - jishnurajendran
 
-repo_description_lines_max: 2
+repo_description_lines_max: 3
 
 github_repos:
   - jishnurajendran/Numerical-analysis
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - jishnurajendran/Lattice-Boltzmann
+  - jishnurajendran/Lanczos-algorithm
+  - rose-pine/hyprland

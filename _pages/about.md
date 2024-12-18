@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-  <a href='mailto:jishnu.rajendran@dfa.unict.it'>jishnu.rajendran@dfa.unict.it</a>
+  <p><a href='mailto:jishnu.rajendran@dfa.unict.it'>jishnu.rajendran@dfa.unict.it</a></p>
   <p>DFA, UNICT, Catania</p>
 
 news: false # includes a list of news items

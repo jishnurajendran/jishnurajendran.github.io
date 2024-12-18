@@ -72,9 +72,19 @@
       "startDate": "2018-12-01",
       "endDate": "2024-07-30",
       "gpa": "",
+      "courses": ["Quantum technology", "Open quantum system"]
+    },
+    {
+      "institution": "NISER, India",
+      "area": "Physics",
+      "studyType": "M.Sc.",
+      "startDate": "2012-05-01",
+      "endDate": "2017-06-01",
+      "gpa": "",
       "courses": [
-        "Quantum technology",
-        "Open quantum system"
+        "Quantum information",
+        "Numerical Analysis",
+        "Advanced Algebra (I-IV)"
       ]
     }
   ],
@@ -135,14 +145,37 @@
       "name": "Quantum technology",
       "level": "Master",
       "keywords": [
-        "Open Quantum Systems",
-        "Quantum Error Correction",
-        "Quantum Algorithms",
-        "Quantum Control",
-        "Quantum Information Theory",
-        "Quantum Simulation",
-        "Quantum Cryptography",
-        "Quantum Sensing"
+        "Open Quantum Systems - Applied in noise modeling for superconducting qubits",
+        "Quantum Error Correction - Implemented surface codes for quantum memory protection",
+        "Quantum Algorithms - Developed quantum walk-based algorithms for search problems",
+        "Quantum Control - Designed optimal control protocols for quantum state transfer",
+        "Quantum Information Theory - Applied in quantum communication protocols",
+        "Quantum Simulation - Simulated light-matter interaction in cavity QED",
+        "Quantum Cryptography - Implemented BB84 protocol using Qiskit",
+        "Quantum Sensing - Worked on quantum metrology protocols"
+      ]
+    },
+    {
+      "name": "Programming",
+      "level": "Expert",
+      "keywords": [
+        "Python - Developed quantum simulation packages and ML models for state classification",
+        "Julia - Created high-performance quantum dynamics simulations",
+        "C++ - Implemented quantum algorithms for efficiency",
+        "MATLAB - Developed numerical solvers for quantum systems",
+        "Qiskit - Built quantum circuits for IBM quantum computers",
+        "Cirq - Designed quantum algorithms for Google's quantum framework",
+        "Machine Learning Libraries (PyTorch) - Implemented neural networks for quantum state tomography",
+        "Data Visualization (Matplotlib, Seaborn) - Created publication-quality figures for research",
+        "Scientific Computing (NumPy, SciPy) - Large-scale quantum system simulations",
+        "High-Performance Computing - Parallelized quantum simulations on clusters",
+        "Version Control - Managed collaborative quantum software projects",
+        "Bash",
+        "Git",
+        "Docker",
+        "Object-Oriented Programming",
+        "Functional Programming",
+        "Emacs Lisp (elisp)"
       ]
     },
     {
@@ -165,39 +198,14 @@
       ]
     },
     {
-      "name": "Programming",
-      "level": "Expert",
-      "keywords": [
-        "Python",
-        "Julia",
-        "C++",
-        "MATLAB",
-        "Qiskit",
-        "Cirq",
-        "Bash",
-        "Git",
-        "Docker",
-        "Numerical Analysis",
-        "Machine Learning Libraries (PyTorch)",
-        "Data Visualization (Matplotlib, Seaborn)",
-        "Scientific Computing (NumPy, SciPy)",
-        "High-Performance Computing",
-        "Parallel Programming",
-        "Object-Oriented Programming",
-        "Functional Programming",
-        "Version Control",
-        "Emacs Lisp (elisp)"
-      ]
-    },
-    {
       "name": "Optimal Control",
       "level": "Expert",
       "keywords": [
-        "Quantum Optimal Control",
-        "Pulse Shaping",
-        "Hamiltonian Engineering",
-        "Dynamical Decoupling",
-        "Quantum Gate Synthesis",
+        "Quantum Optimal Control - Developed protocols for quantum gate implementation",
+        "Pulse Shaping - Designed microwave pulses for qubit control",
+        "Hamiltonian Engineering - Modified system dynamics for quantum information processing",
+        "Dynamical Decoupling - Implemented noise suppression techniques",
+        "Quantum Gate Synthesis - Optimized quantum circuit implementations",
         "System Modelling"
       ]
     },
@@ -205,11 +213,11 @@
       "name": "Data Analysis",
       "level": "Expert",
       "keywords": [
-        "Statistical Analysis",
-        "Data Visualization",
-        "Big Data Processing",
-        "Numerical Methods",
-        "Monte Carlo Simulations"
+        "Statistical Analysis - Applied to quantum measurement data",
+        "Data Visualization - Created interactive quantum system visualizations",
+        "Big Data Processing - Handled large quantum simulation datasets",
+        "Numerical Methods - Implemented quantum system solvers",
+        "Monte Carlo Simulations - Used in quantum error analysis"
       ]
     }
   ],

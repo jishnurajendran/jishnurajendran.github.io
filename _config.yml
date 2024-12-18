@@ -7,7 +7,7 @@ first_name: Jishnu
 middle_name:
 last_name: Rajendran
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  You can reach me at the above email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >

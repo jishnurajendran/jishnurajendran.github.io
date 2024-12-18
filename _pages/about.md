@@ -1,7 +1,7 @@
 ---
 layout: about
 title: about
-permalink: /
+permalink: /about.html
 subtitle: <a href='https://www.dfa.unict.it/dottorandi/jishnu.rajendran'>Affiliations</a>.Universita degli Studi di Catania
 
 profile:

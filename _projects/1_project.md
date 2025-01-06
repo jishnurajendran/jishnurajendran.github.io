@@ -2,7 +2,7 @@
 layout: page
 title: Optimal Control
 description: Quantum optimal control
-img: assets/img/12.jpg
+img: assets/img/optimal-control.jpg
 importance: 1
 category: work
 related_publications: true

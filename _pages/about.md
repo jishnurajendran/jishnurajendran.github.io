@@ -21,7 +21,7 @@ social: true # includes social icons at the bottom of the page
 
 
 
-### Quantum Technology Specialist**
+### `Quantum Technology Specialist`
 ---
 ### **About Me**
 

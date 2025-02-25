@@ -18,13 +18,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Dr. Jishnu Rajendran, PhD in Quantum Technology from [Department of Physics and Astronomy &ldquo;Ettore Majorana&rdquo;](https://www.dfa.unict.it/dottorandi/jishnu.rajendran), [Universita degli Studi di Catania](https://www.unict.it/en). My fields of expertise are `Quantum computation and information`, `Quantum walks`, `Quantum optimal control`, `Quantum algorithms`, `Computational physics`, `Numerical simulation`, `Optimal control`, `evolutionary algorithms` and `deep learning methods in optimization problems`.
-
-Rewrite for a portfolio
 
 
 
-# Dr. Jishnu Rajendran, PhD
+# Jishnu Rajendran, PhD in Quantum Technology
 
 **Quantum Technology Specialist**  
  [Department of Physics and Astronomy &ldquo;Ettore Majorana&rdquo;](https://www.dfa.unict.it/dottorandi/jishnu.rajendran),

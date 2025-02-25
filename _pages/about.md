@@ -21,14 +21,8 @@ social: true # includes social icons at the bottom of the page
 
 
 
-# Jishnu Rajendran, PhD in Quantum Technology
-
-**Quantum Technology Specialist**  
- [Department of Physics and Astronomy &ldquo;Ettore Majorana&rdquo;](https://www.dfa.unict.it/dottorandi/jishnu.rajendran),
- [Universita degli Studi di Catania](https://www.unict.it/en)
-
+### Quantum Technology Specialist**
 ---
-
 ### **About Me**
 
 I am a researcher with a PhD in Quantum Technology from the [Universita degli Studi di Catania](https://www.unict.it/en), where I am part of the  [Department of Physics and Astronomy &ldquo;Ettore Majorana&rdquo;](https://www.dfa.unict.it/dottorandi/jishnu.rajendran)". My work focuses on advancing the field of quantum computing through innovative approaches in quantum walks, quantum optimal control, and quantum algorithms. I also explore the intersection of computational physics, numerical simulation, and optimization, leveraging tools like evolutionary algorithms and deep learning.
@@ -37,15 +31,15 @@ I am a researcher with a PhD in Quantum Technology from the [Universita degli St
 
 ### **Expertise**
 
-- **Quantum Computation and Information**
-- **Quantum Walks**
-- **Quantum Optimal Control**
-- **Quantum Algorithms**
-- **Computational Physics**
-- **Numerical Simulation**
-- **Optimal Control**
-- **Evolutionary Algorithms**
-- **Deep Learning Methods in Optimization**
+- `Quantum Computation and Information` 
+- `Quantum Walks` 
+- `Quantum Optimal Control`
+- `Quantum Algorithms` 
+- `Computational Physics` 
+- `Numerical Simulation`
+- `Optimal Control`
+- `Evolutionary Algorithms`
+- `Deep Learning Methods in Optimization`
 
 ---
 

@@ -7,4 +7,3 @@ redirect: https://github.com/jishnurajendran/Quantum-walks
 importance: 3
 category: work
 ---
-
